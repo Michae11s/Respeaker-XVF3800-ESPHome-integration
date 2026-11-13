@@ -135,7 +135,7 @@ psram:
 external_components:
   - source:
       type: git
-      url: https://github.com/formatBCE/Respeaker-XVF3800-ESPHome-integration
+      url: https://github.com/Michae11s/Respeaker-XVF3800-ESPHome-integration
       ref: ${respeaker_ref}
     components:
       - respeaker_xvf3800
@@ -144,7 +144,7 @@ external_components:
   # The decimator microphone, shared with the Respeaker Lite.
   - source:
       type: git
-      url: https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration
+      url: https://github.com/Michae11s/Respeaker-Lite-ESPHome-integration
       ref: ${respeaker_lite_ref}
     components:
       - decimator
