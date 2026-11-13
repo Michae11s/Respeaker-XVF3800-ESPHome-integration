@@ -36,7 +36,7 @@ substitutions:
 packages:
   # The core merges first, so a value in the packages of this repository wins.
   satellite_core:
-    url: https://github.com/formatBCE/Respeaker-Lite-ESPHome-integration
+    url: https://github.com/Michae11s/Respeaker-Lite-ESPHome-integration
     ref: ${respeaker_lite_ref}
     refresh: 1d
     files:
