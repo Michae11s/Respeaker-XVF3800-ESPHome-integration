@@ -23,10 +23,10 @@ substitutions:
   # It selects the C++ components and the DFU firmware. Each release sets it to
   # its own tag, so a pinned package stays consistent. Set it to "main" to
   # follow the newest code.
-  respeaker_ref: 2026.11.0
+  respeaker_ref: main
   # Release of Respeaker-Lite-ESPHome-integration that holds the voice
   # satellite core, the sounds, and the kenobi and snooze wake word models.
-  respeaker_lite_ref: 2026.10.4
+  respeaker_lite_ref: main
 
   # --- Tuning --------------------------------------------------------------
   # The core sets hidden_ssid ("true" if your network does not broadcast its
